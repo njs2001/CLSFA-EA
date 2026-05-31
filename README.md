@@ -10,6 +10,8 @@ This repository contains the code and supplementary materials for the paper "Ent
 | `DBP15k Fr-En.rar` | DBP15K French-English dataset (compressed) |
 | `dbp_fr_en_translation.json` | Entity name translation results |
 | `Experimental results on hyperparameters...` | Detailed hyperparameter tuning results |
+| `requirements.txt` | Specification of dependencies |
+| `utilstorch.py` | Utility script for data loading and evaluation metrics |
 
 ## Required Downloads (Not Included)
 The following files are too large to host on GitHub. Please download them separately:
