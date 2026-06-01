@@ -17,7 +17,7 @@ This repository contains the code and supplementary materials for the paper "Ent
 The following files are too large to host on GitHub. Please download them separately:
 
 1.  **Multilingual Sentiment Analysis Model**: tabularisai/multilingual-sentiment-analysis from Hugging Face Hub
-2.  **GloVe Pre-trained Word Vectors**: glove.6B.300d.txt
+2.  **GloVe Pre-trained Word Vectors**: glove.6B.300d.txt available from http://nlp.stanford.edu/data/glove.6B.zip 
 3.  **Translation Service**: We use Baidu General Translation API for entity name translation.
 
 ## Quick Start
