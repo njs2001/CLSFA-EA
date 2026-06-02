@@ -1,11 +1,11 @@
-# CLEFA-EA: Entity Alignment Model Based on Contrastive Learning and Sentiment Orientation Assistance
+# CLSFA-EA: Entity Alignment Model Based on Contrastive Learning and Sentiment Orientation Assistance
 
 This repository contains the code and supplementary materials for the paper "Entity Alignment Model Based on Contrastive Learning and Sentiment Orientation Assistance".
 
 ## Repository Contents
 | File Name | Description |
 |--------|------|
-| `CLEFA-EA.py` | Main implementation of the CLEFA-EA model |
+| `CLSFA-EA.py` | Main implementation of the CLEFA-EA model |
 | `Get sentiment.py` | Tool to generate relation emotion mapping files |
 | `DBP15k Fr-En.rar` | DBP15K French-English dataset (compressed) |
 | `dbp_fr_en_translation.json` | Entity name translation results |
@@ -23,15 +23,15 @@ The following files are too large to host on GitHub. Please download them separa
 ## Quick Start
 **This repository uses the DBP15K fr-en dataset as an example.**
 1.  Extract the dataset：unrar `DBP15k Fr-En.rar`
-2.  Modify the file paths in both `CLEFA-EA.py` and `Get sentiment.py`, to match your local environment
+2.  Modify the file paths in both `CLSFA-EA.py` and `Get sentiment.py`, to match your local environment
 3.  Generate the relation emotion mapping files：Run `python "Get sentiment.py"`
-4.  Train and evaluate the model：Run `python CLEFA-EA.py`
+4.  Train and evaluate the model：Run `python CLSFA-EA.py`
 
-The performance of our proposed models (CLEFA-EA-L and CLEFA-EA-S) on the DBP15K cross-lingual datasets is summarized in the table below:
+The performance of our proposed models (CLSFA-EA-L and CLSFA-EA-S) on the DBP15K cross-lingual datasets is summarized in the table below:
 | Method Name | DBP15k zh-en (Hits@1 / Hits@10 / MRR) | DBP15k ja-en (Hits@1 / Hits@10 / MRR) | DBP15k fr-en (Hits@1 / Hits@10 / MRR) |
 |--------|------|------|------|
-| `CLEFA-EA-L` | 95.60 / - / - |97.88 / - / - |99.68 / - / - |
-| `CLEFA-EA-S` | 93.71 / 98.33 / 0.95 |95.63 / 99.21 / 0.97 |98.49 / 99.88 / 0.99 |
+| `CLSFA-EA-L` | 95.60 / - / - |97.88 / - / - |99.68 / - / - |
+| `CLSFA-EA-S` | 93.71 / 98.33 / 0.95 |95.63 / 99.21 / 0.97 |98.49 / 99.88 / 0.99 |
    
 ## Notes
 - GPU is highly recommended for faster training
