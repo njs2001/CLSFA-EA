@@ -5,7 +5,7 @@ This repository contains the code and supplementary materials for the paper "Ent
 ## Repository Contents
 | File Name | Description |
 |--------|------|
-| `CLSFA-EA.py` | Main implementation of the CLEFA-EA model |
+| `CLSFA-EA.py` | Main implementation of the CLSFA-EA model |
 | `Get sentiment.py` | Tool to generate relation emotion mapping files |
 | `DBP15k Fr-En.rar` | DBP15K French-English dataset (compressed) |
 | `dbp_fr_en_translation.json` | Entity name translation results |
